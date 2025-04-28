@@ -1,0 +1,17 @@
+* input#user-name
+* #user-name
+* input.form_input
+* .form_input
+* input[data-test=username]
+* [data-test=username]
+* input.form_input[placeholder=Username]
+* input.form_input[data-test=username]
+* XPATH relativo: //*[@id="add-to-cart-sauce-labs-bike-light"]
+* XPATH completo: /html/body/div[1]/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/button
+* //*[contains(text(), “A red light isn't”)]
+* //*[contains(@class, "inventory")]
+* //*[contains(@class, "inventory") and contains(text(), "A red light isn't")]
+* //*[contains(@data-test, "inventory-item-desc") or contains(text(), "A red light isn't") or contains(text(), "It's not every day")]
+* //div[@class="inventory_item_price" and contains(text(), "29.99)]
+* //div[@class="inventory_item_price" and contains(text(), "29.99")] | //div[@class="inventory_item_price" and contains(text(), "9.99")]
+* .lower() -> vai fazer todos os caracteres ficarem minúsculos

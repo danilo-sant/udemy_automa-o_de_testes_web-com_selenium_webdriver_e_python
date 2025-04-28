@@ -1,0 +1,4 @@
+1º - entro na pasta que desejo instalar o venv -> comando: "cd .\nome_desejado\"
+2º - instalo o venv com o nome que desejo "python -> comando: "python -m venv nome_desejado"
+3º - entro na pasta "Scripts" que foi criada pelo venv e executo o programa "Activate.ps1" - comando: "nome_desejado\Scripts\Activate.ps1"
+4º - instalo o selenium -> comando: "pip install selenium"
